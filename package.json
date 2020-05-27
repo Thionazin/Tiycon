@@ -1,0 +1,25 @@
+{
+  "name": "Tiycon",
+  "version": "0.0.1",
+  "description": "Overlord administrator supreme overseer Discord bot.",
+  "main": "main.js",
+  "repository": "https://github.com/Thionazin/Tiycon",
+  "author": "Senhe Hao",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "eslint": "^7.1.0",
+    "fs": "^0.0.1-security",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.9.16",
+    "node": "^14.3.0",
+    "nodemon": "^2.0.4",
+    "pm2": "^4.4.0"
+  },
+  "scripts": {
+    "start": "pm2 start main.js",
+    "test": "nodemon --inspect main.js",
+    "stop": "pm2 stop main.js"
+  }
+}
